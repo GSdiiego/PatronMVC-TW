@@ -19,14 +19,10 @@ $pais = "Mexico";
 $nacionalidad = "Mexicano";
 
 
-echo"mi nombre es: ".$nombre;
-echo"\nMi videojuego favorito es:".$Game;
-echo"\nMi estatura es de:".$estatura;
-echo"\nMi edad:".$edad;
-echo"\nEstudio la carrera de:".$carrera;
-echo"\nEn la universidad:".$universidad;
-echo"\nDomicilio:".$hogar;
-echo"\nVivo en el municipio de:".$municipio;
-echo"\nPais de origen:".$pais;
-echo"\nMi nacionalidad:".$nacionalidad;
+echo"mi nombre es ".$nombre, "\nactualmente videojuego favorito es ".$Game,
+"\nmi estatura es de ".$estatura,"\nMi edad:".$edad,"\nEstudio la carrera de ".$carrera,
+"\nen la universidad".$universidad,"\nvivo:".$hogar,"\nDomicilio:".$hogar,
+"\nvivo en el municipio de".$municipio,"\n mi Pais de origen es".$pais,
+"\ny mi nacionalidad es ".$nacionalidad;
+
 ?>
