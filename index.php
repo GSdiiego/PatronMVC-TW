@@ -19,8 +19,8 @@ $municipio = "Tecamac";
 $estado = "Estado de Mexico";
 $nacionalidad = "Mexicano";
 
-echo"Hola me llamo $nombre y tengo $edad mi estatura es de $estatura,
-mi domicilo se encuentra en $domicilio dentro del minicipio de $municipio  $estado,
-actualmente me encuentro estudiando la carrera de $carrera en la universiad $universidad,
-uno de mis pasa tiempo favotitos es jugar $juego";
+echo"Hola me llamo " . $nombre . " mi nacionalidad es " . $nacionalidad . " y tengo " . $edad . " mi estatura es de " . $estatura .
+" actualmente me encuentro estudiando la carrera de " . $carrera . " en la universiad " . $universidad . 
+" mi domicilo se encuentra en " . $domicilio . " dentro del municipio de " . $municipio . " hubicado en el " . $estado .
+" uno de mis pasatiempos favotitos es jugar " . $juego;
 ?>
